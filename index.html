@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QuantLens - AI-Powered Trading Platform | Natural Language Strategy Design</title>
+    <meta name="description" content="Transform your trading ideas into executable strategies using plain English. No coding required. Advanced portfolio analytics, risk management, and multi-broker integration.">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">
+                    <h1>QuantLens</h1>
+                    <span class="logo-tagline">Trade With Confidence</span>
+                </div>
+                <nav class="nav">
+                    <a href="#features" class="btn btn--outline btn--sm">Features</a>
+                    <a href="https://quantlens.netlify.app/" class="btn btn--outline btn--sm">
+                    View Demo
+                    </a>
+
+                    <!-- <a href="#faq" class="nav-link">FAQ</a> -->
+                    <button class="btn btn--primary btn--lg" id="joinWaitlistBtn">Join the Waitlist</button>                    
+                    <!-- <a href="https://quantlens.netlify.app/" target="_blank" class="btn btn--outline btn--sm">View Demo</a> -->
+                </nav>
+                <button class="mobile-menu-toggle" id="mobileMenuToggle">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1 class="hero-title">Trade smarter with AI that explains, simulates, and protects your moves.</h1>
+                    <p class="hero-subtitle">Transform your trading ideas into executable strategies using plain English. No coding required.</p>
+                    
+                    <div class="hero-actions">
+                    <button class="btn btn--primary btn--lg" 
+                            onclick="document.getElementById('waitlist').scrollIntoView({ behavior: 'smooth' });">
+                    Join the Waitlist
+                    </button>
+                    <a href="https://quantlens.netlify.app/" target="_blank" class="btn btn--outline btn--lg">View Demo</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Main Feature Section -->
+    <section class="main-feature">
+        <div class="container">
+            <div class="main-feature-content">
+                <div class="main-feature-text">
+                    <h2 class="section-title">Natural Language Strategy Design</h2>
+                    <h3 class="section-subtitle">Describe Your Strategy in Plain English - AI Does the Rest</h3>
+                    <p class="section-description">No more complex coding or manual indicator setup. Simply tell QuantLens what you want to trade, and our AI transforms your ideas into executable strategies with real-time execution, backtesting, and risk management.</p>
+                    
+                    <div class="example-query">
+                        <div class="example-label">Example:</div>
+                        <div class="example-text">"I buy when price breaks above 20-day high with volume spike, sell when momentum slows"</div>
+                    </div>
+                    
+                    <div class="benefits-list">
+                        <div class="benefit-item">✓ Real-time Strategy Execution</div>
+                        <div class="benefit-item">✓ Automatic Backtesting</div>
+                        <div class="benefit-item">✓ Risk Management Integration</div>
+                        <div class="benefit-item">✓ Multi-Asset Support</div>
+                        <div class="benefit-item">✓ Performance Optimization</div>
+                        <div class="benefit-item">✓ Natural Language Processing</div>
+                    </div>
+                </div>
+                
+                <div class="main-feature-video">
+                <video class="feature-video" autoplay muted loop playsinline poster="thumbnail.jpg">
+                <source src="demo.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+                </video>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="features" id="features">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Powerful Trading Features</h2>
+                <p class="section-description">Everything you need to trade smarter and more efficiently</p>
+            </div>
+            
+            <div class="features-grid">
+                <!-- Feature 1: Position Intelligence Matrix -->
+                <div class="feature-card" data-feature="position-intelligence">
+                    <div class="feature-image">
+                        <img src="3.png" alt="Position Intelligence Matrix Dashboard" loading="lazy">
+                    </div>
+                    <div class="feature-content">
+                        <h3 class="feature-title">Position Intelligence Matrix</h3>
+                        <p class="feature-description">Provides a real-time dashboard of technical and quantitative indicators across all open positions</p>
+                        <ul class="feature-benefits">
+                            <li>Live P&L tracking</li>
+                            <li>Risk analysis</li>
+                            <li>Performance metrics</li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- Feature 5: Intelligent Alerts System -->
+                <div class="feature-card" data-feature="alerts-system">
+                    <div class="feature-image">
+                        <img src="alerts.png" alt="Intelligent Alerts System" loading="lazy">
+                    </div>
+                    <div class="feature-content">
+                        <h3 class="feature-title">Intelligent Alerts System</h3>
+                        <p class="feature-description">Stay informed with smart alerts that adapt to your trading style.</p>
+                        <ul class="feature-benefits">
+                            <li>Custom triggers</li>
+                            <li>Multi-channel delivery</li>
+                            <li>Smart filtering</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Feature 6: Multi-Layered Strategy Testing -->
+                <div class="feature-card" data-feature="strategy-testing">
+                    <div class="feature-image">
+                        <img src="backtest.png" alt="Multi-Layered Strategy Testing Dashboard" loading="lazy">
+                    </div>
+                    <div class="feature-content">
+                        <h3 class="feature-title">Multi-Layered Strategy Testing</h3>
+                        <p class="feature-description">Test strategies beyond simple backtesting with advanced simulations.</p>
+                        <ul class="feature-benefits">
+                            <li>Historical testing</li>
+                            <li>Scenario modeling</li>
+                            <li>Predictive testing</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Feature 2: Real-time Portfolio Analytics -->
+                <div class="feature-card" data-feature="portfolio-analytics">
+                    <div class="feature-image">
+                        <img src="protfolio.png" alt="Portfolio Analytics Dashboard" loading="lazy">
+                    </div>
+                    <div class="feature-content">
+                        <h3 class="feature-title">Real-time Portfolio Analytics</h3>
+                        <p class="feature-description">Get instant insights into your portfolio performance with advanced analytics and visualizations.</p>
+                        <ul class="feature-benefits">
+                            <li>Live P&L tracking</li>
+                            <li>Risk analysis</li>
+                            <li>Performance metrics</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Feature 3: Advanced Risk Management -->
+                <div class="feature-card" data-feature="ai-chatbot">
+                    <div class="feature-image">
+                        <img src="aichatbot.png" alt="AI Chatbot" loading="lazy">
+                    </div>
+                    <div class="feature-content">
+                        <h3 class="feature-title">AI-Powered Trading Chatbot</h3>
+                        <p class="feature-description">Get instant answers to trading queries and personalized insights through an intelligent chatbot assistant.</p>
+                        <ul class="feature-benefits">
+                            <li>24/7 trading support</li>
+                            <li>Natural language queries</li>
+                            <li>Smart trade recommendations</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Feature 4: Multi-Broker Integration -->
+                <div class="feature-card" data-feature="broker-integration">
+                    <div class="feature-image">
+                        <img src="brokers.png" alt="Multi-Broker Integration Dashboard" loading="lazy">
+                    </div>
+                    <div class="feature-content">
+                        <h3 class="feature-title">Multi-Broker Integration</h3>
+                        <p class="feature-description">Connect to all major brokers through a single, unified interface.</p>
+                        <ul class="feature-benefits">
+                            <li>15+ brokers supported</li>
+                            <li>Unified interface</li>
+                            <li>Real-time sync</li>
+                        </ul>
+                    </div>
+                </div>
+
+                
+
+                
+            </div>
+        </div>
+    </section>
+
+    <!-- Supported Brokers -->
+    <!-- <section class="brokers">
+        <div class="container">
+            <h2 class="section-title">Supported Brokers</h2>
+            <p class="section-description">Connect with 15+ major Indian brokers</p>
+            
+            <div class="brokers-grid">
+                <div class="broker-item">Zerodha</div>
+                <div class="broker-item">Upstox</div>
+                <div class="broker-item">Angel One</div>
+                <div class="broker-item">ICICI Direct</div>
+                <div class="broker-item">HDFC Securities</div>
+                <div class="broker-item">Kotak Securities</div>
+                <div class="broker-item">Fyers</div>
+                <div class="broker-item">Alice Blue</div>
+            </div>
+        </div>
+    </section> -->
+
+                
+             
+
+    <!-- Waitlist Form -->
+    <section id = "waitlist" class="waitlist">
+        <div class="container">
+            <div class="waitlist-content">
+                <h2 class="section-title">Join the Early Access</h2>
+                <p class="section-description">Be among the first 200 users to get Free Access for first 3 months and early access to new features</p>
+                
+                <form class="waitlist-form" action="https://formspree.io/f/myzdbrkd" method="POST">
+                    <div class="form-row">
+                        <input type="email" name="email" placeholder="Enter your email address" class="form-control" required>
+                        <input type="text" name="name" placeholder="Your name" class="form-control" required>
+                    </div>
+                    <div class="form-row">
+                        <select name="trading_experience" class="form-control" required>
+                            <option value="">Select your trading experience</option>
+                            <option value="beginner">Beginner (0-1 years)</option>
+                            <option value="intermediate">Intermediate (1-3 years)</option>
+                            <option value="advanced">Advanced (3+ years)</option>
+                            <option value="professional">Professional Trader</option>
+                        </select>
+                        <select name="interested_features" class="form-control">
+                            <option value="">Select primary interest</option>
+                            <option value="ai_strategy">AI Strategy Design</option>
+                            <option value="portfolio_analytics">Portfolio Analytics</option>
+                            <option value="risk_management">Risk Management</option>
+                            <option value="multi_broker">Multi-Broker Integration</option>
+                            <option value="backtesting">Backtesting & Analysis</option>
+                            <option value="all_features">All Features</option>
+                        </select>
+                    </div>
+                    <button type="submit" class="btn btn--primary btn--lg btn--full-width">Join Waitlist & Get 3 months free</button>
+                </form>
+                
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Footer -->
+    <footer class="footer">
+  <div class="container">
+    <div class="footer-content" style="text-align: center;">
+      <h4>Contact Us</h4>
+      <p>
+        <a href="mailto:dineshsai050106@gmail.com">dineshsai050106@gmail.com</a><br>
+        <a href="mailto:sathwikitthagoni@gmail.com">sathwikitthagoni@gmail.com</a>
+      </p>
+    </div>
+  </div>
+</footer>
+
+
+    <script src="app.js"></script>
+</body>
+</html>
