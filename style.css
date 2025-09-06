@@ -883,7 +883,7 @@ margin: 0;
   overflow: hidden;
 
   /* Let height adapt naturally */
-  min-height: 600px ;
+  min-height: 60vh ;
 }
 
 .hero-headline {
