@@ -1636,7 +1636,12 @@ margin: 0;
 .footer-legal a:hover {
   color: var(--color-primary);
 }
-
+@media (max-width: 768px) {
+  .hero-section {
+    min-height: 60vh; /* let content decide */
+    padding: var(--space-20) var(--space-16);
+  }
+}
 /* Responsive Design */
 @media (max-width: 1024px) {
   .hero-section {
@@ -1666,16 +1671,16 @@ margin: 0;
     grid-template-columns: repeat(2, 1fr);
   }
 }
-@media (min-width: 769px) {
-  .hero-section {
-    min-height: 90vh; /* full viewport on big screens */
-  }
-}
+/* @media (min-width: 769px) { */
+  /* .hero-section { */
+    /* min-height: 100vh; full viewport on big screens */
+  /* } */
+/* } */
 
 /* On mobile, let content decide height */
 @media (max-width: 768px) {
   .hero-section {
-    min-height: auto;
+    min-height: 60vh;
     align-items: flex-start; /* so content starts at top, not cut */
     padding: var(--space-16) 0 var(--space-24);
   }
