@@ -878,6 +878,7 @@ margin: 0;
   color: var(--color-cream-50);
   display: flex;
   align-items: center;
+  /* align-items: ; */
   padding: var(--space-24) 0 var(--space-32);
   position: relative;
   overflow: hidden;
@@ -890,6 +891,7 @@ margin: 0;
   font-size: clamp(var(--font-size-3xl), 5vw, 3.5rem);
   font-weight: var(--font-weight-bold);
   line-height: var(--line-height-tight);
+  margin-top: 10px;
   margin-bottom: 10px;
   letter-spacing: var(--letter-spacing-tight);
   background: linear-gradient(135deg, var(--color-cream-50), var(--color-teal-300));
