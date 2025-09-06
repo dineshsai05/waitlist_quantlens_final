@@ -1668,7 +1668,7 @@ margin: 0;
 }
 @media (min-width: 769px) {
   .hero-section {
-    min-height: 60vh; /* full viewport on big screens */
+    min-height: 90vh; /* full viewport on big screens */
   }
 }
 
