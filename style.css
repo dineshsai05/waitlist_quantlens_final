@@ -858,8 +858,45 @@ body {
   opacity: 0.6;
   z-index: 1;
 }  */
+.hero-cta {
+  margin-top: 20px;
+  display: flex;
+  gap: var(--space-16);
+  align-items: center;
+}
 
+.hero-subheadline {
+  /* margin-bottom: 20px; */
+font-size: var(--font-size-xl);
+line-height: var(--line-height-normal);
+color: rgba(var(--color-gray-200-rgb), 0.9);
+margin: 0;
+}
+
+.hero-section {
+  /* padding: 10px 0 var(--space-12); */
+  min-height: 45vh;
+  background: linear-gradient(135deg, var(--color-slate-900), var(--color-teal-700));
+  color: var(--color-cream-50);
+  display: flex;
+  align-items: center;
+  padding: var(--space-32) 0;
+  position: relative;
+  overflow: hidden;
+}
+.hero-headline {
+  font-size: clamp(var(--font-size-3xl), 5vw, 3.5rem);
+  font-weight: var(--font-weight-bold);
+  line-height: var(--line-height-tight);
+  margin-bottom: 10px;
+  letter-spacing: var(--letter-spacing-tight);
+  background: linear-gradient(135deg, var(--color-cream-50), var(--color-teal-300));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
 .hero-content {
+  /* min-height: vh; */
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: var(--space-32); 
@@ -971,7 +1008,7 @@ body {
 }
 .feature-video {
   aspect-ratio: 16 / 9;               /* keeps proper video ratio */
-  width: 100%;
+  width: 135%;
   border-radius: var(--radius-lg);
   border: 1px solid var(--color-card-border);
   display: block;
