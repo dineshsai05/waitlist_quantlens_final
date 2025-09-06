@@ -883,7 +883,7 @@ margin: 0;
   overflow: hidden;
 
   /* Let height adapt naturally */
-  min-height: auto;
+  min-height: 600px ;
 }
 
 .hero-headline {
@@ -1638,14 +1638,14 @@ margin: 0;
 }
 @media (max-width: 768px) {
   .hero-section {
-    min-height: 60vh; /* let content decide */
+    min-height: 100vh; /* let content decide */
     padding: var(--space-20) var(--space-16);
   }
 }
 /* Responsive Design */
 @media (max-width: 1024px) {
   .hero-section {
-    min-height: auto; /* let content decide height on mobile */
+    min-height: 100vh; /* let content decide height on mobile */
     padding: var(--space-16) 0 var(--space-24);
   }
   .hero-content {
@@ -1680,7 +1680,7 @@ margin: 0;
 /* On mobile, let content decide height */
 @media (max-width: 768px) {
   .hero-section {
-    min-height: 60vh;
+    min-height: 100vh;
     align-items: flex-start; /* so content starts at top, not cut */
     padding: var(--space-16) 0 var(--space-24);
   }
